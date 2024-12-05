@@ -1,3 +1,43 @@
+/*ID Manipulation*/
+
+/* Header and Footer rules*/
+
+#selfinfo , footer{
+    text-align: center;
+    background-color: #2B2A2A;
+    border: #bd1000 outset 3px;
+}
+#selfinfo img{
+    width: 300px;
+}
+
+/* <main> ---> <section> Stylization */
+
+/* Bio */
+#bio{
+    border: #8f0e03 inset 3px;
+}
+
+/* Hobbies */
+#hobbies{
+    border: #bd1000 outset 1px;
+}
+
+/* Gallery */
+#gallery{
+    border: #8f0e03 inset 3px;
+}
+
+#gallery img{
+    max-width: 100%;
+    border: #000 solid 2px;
+
+}
+#gallery figure{
+    text-align: center;
+}
+
+/* General Text Formatting and Stylization*/
 body{
     font-family: "Arial";
     background-color: #242323;
@@ -7,33 +47,6 @@ body{
 
 header{
     text-align: center;
-}
-
-a:link{
-    color: #8f0e03;  
-    text-decoration: none;
-}
-a:visited{
-    color: #8f0e03;
-}
-a:hover{
-    color: aliceblue;
-}
-a:active{
-    color: black;
-
-}
-#selfinfo , footer{
-    text-align: center;
-    background-color: #2B2A2A;
-    border: #bd1000 outset 2px;
-}
-#selfinfo img{
-    width: 300px;
-}
-
-#bio{
-    border: #8f0e03 inset 2px;
 }
 
 h1 {
@@ -57,3 +70,20 @@ p{
     font-family: Pangolin;
     font-size: 16pt;
 }
+
+/* Link Stylization */
+a:link{
+    color: #8f0e03;  
+    text-decoration: none;
+}
+a:visited{
+    color: #8f0e03;
+}
+a:hover{
+    color: aliceblue;
+}
+a:active{
+    color: black;
+
+}
+
