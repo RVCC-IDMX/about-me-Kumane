@@ -85,6 +85,11 @@
     text-shadow: 15px 10px 10px black;
 }
 
+/*Video Section*/
+#video{
+    text-align: center;
+}
+
 /* General Text Formatting and Stylization*/
 body{
     font-family: "Arial";
