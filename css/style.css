@@ -7,22 +7,50 @@ body{
 
 header{
     text-align: center;
-    img
 }
 
+a:link{
+    color: #8f0e03;  
+    text-decoration: none;
+}
+a:visited{
+    color: #8f0e03;
+}
+a:hover{
+    color: aliceblue;
+}
+a:active{
+    color: black;
+
+}
 #selfinfo , footer{
     text-align: center;
     background-color: #2B2A2A;
+    border: #bd1000 outset 2px;
 }
 #selfinfo img{
     width: 300px;
 }
 
-h1, h2, h3, h4, h5, h6{
+#bio{
+    border: #8f0e03 inset 2px;
+}
+
+h1 {
     font-family: "Special Elite";
-    font-size: 40pt;
+    font-size: 55pt;
     color: #bd1000;
     text-shadow: -2px -2px 0 #000, 2px -2px #000, -2px 2px #000, 2px 2px #000;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: "Special Elite";
+    color: #bd1000;
+    text-shadow: -2px -2px 0 #000, 2px -2px #000, -2px 2px #000, 2px 2px #000;
+}
+
+h2{
+    font-size: 40px;
 }
 
 p{
