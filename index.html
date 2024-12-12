@@ -107,6 +107,7 @@
         </article>
 
         <section id="video">
+
             <h2>Short Video about my Midterm</h2>
             <div>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/NStNrUhRnFE?si=GMyUSVV3Mz-oi2e7" style="-webkit-box-shadow: 4px 10px 90px 0px rgba(255,0,0,1);
@@ -114,6 +115,74 @@
                 box-shadow: 4px 10px 90px 0px rgba(255,0,0,1);" title="Youtube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <h3></h3>
             </div>
+        </section>
+
+        <section id="contact">
+
+            <h2>Contact Us:</h2>
+
+            <form id="contactform" name="contactform" method="post" data-netlify="true">
+
+                <fieldset>
+                    <legend>Contact Form</legend>
+
+                    <div id="formElements">
+
+                        <!-- Name -->
+                        <label for="name"> Name (Required) </label>
+                        <input type="text" id="name" name="name" required>
+
+                        <!--Email -->
+                        <label for="email"> Email (Required)</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <!--Phone -->
+                        <label for="phone"> Phone (Optional) </label>
+                        <input type="tel" id="phone" name="phone">
+
+                         <!--Phone Type -->
+                         <label for="phonetype"> Select Phone Type (Optional) </label>
+                         <select id="phonetype" name="phonetype">
+                            <option value="" selected> Select Phone Type </option>
+                            <option value="Mobile">Mobile</option>
+                            <option value="Work">Work</option>
+                            <option value="Home">Home</option>
+                         </select>
+
+                         <!--Message-->
+                         <label for="message">Message (Optional)</label>
+                         <textarea id="message" name="message" rows="8"></textarea>
+
+                         <!--Reply-->
+                         <fieldset>
+
+                            <legend>Would you like a reply?</legend>
+                            
+                            <ul>
+                                <li>
+                                    <input type="radio" id="message-yes" name="reply" value="Yes">
+                                    <label for="message-yes">
+                                    Yes, please.
+                                    </label>
+                                </li>
+
+                                <li>
+                                    <input type="radio" id="message-no" name="reply" value="No">
+                                    <label for="message-no">
+                                    Nah, I'm good.
+                                    </label>
+                                </li>
+                            </ul>
+                         </fieldset>
+
+                        <!--Submit-->
+                        <button type="submit">Send</button>
+
+                    </div>
+                </fieldset> 
+
+
+            </form>
         </section>
     </main>
 

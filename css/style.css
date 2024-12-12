@@ -63,9 +63,6 @@
     border: #bd1000 outset;
     margin: 0.5rem;
 }
-#lit h2{
-    text-align: center;
-}
 #lit div{
     padding: 1.5rem;
     max-width: 50rem;
@@ -113,6 +110,7 @@ h2, h3, h4, h5, h6{
     font-family: "Special Elite";
     color: #bd1000;
     text-shadow: -2px -2px 0 #000, 2px -2px #000, -2px 2px #000, 2px 2px #000;
+    text-align: center;
 }
 
 h2{
@@ -140,6 +138,19 @@ a:active{
 
 }
 
+/* Contact Form*/
+
+#formElements{
+    display: grid;
+}
+
+label{
+    padding: 0.35em;
+}
+
+fieldset ul{
+    list-style-type: none;
+}
 /*tablet size*/
 @media screen and (min-width: 60em){
     figure {
