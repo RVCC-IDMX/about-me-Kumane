@@ -23,6 +23,13 @@ main{
 
 /* navbar */
 
+.navbar{
+    background-color:#2B2A2A;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
 
 
 /* logo */
