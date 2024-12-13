@@ -29,6 +29,7 @@ main{
     flex-direction: column;
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    font-family: "Special Elite";
 }
 
 
@@ -50,12 +51,23 @@ main{
 }
 /* navigation list */
 
+.navbar-links li {
+    list-style: none;
+    display: block;
+    padding: 0.5em 0;
+}
 
 /*  
  style all a tags in header 
  and then on hover
 */
 
+.navbar-links a{
+    font-size: 1.5rem;
+    padding: 0.5rem 1.25rem;
+    letter-spacing: 2px;
+    display: inline-block;
+}
 
 
 
