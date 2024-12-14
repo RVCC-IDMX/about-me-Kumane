@@ -52,7 +52,7 @@ main{
 }
 /* navigation list */
 
-.navbar-links li {
+.navbar-links ul,li {
     list-style: none;
     display: block;
     padding: 0.5em 0;
@@ -104,7 +104,7 @@ such that no text wraps
         font-size: 2rem;
 
     }
-    
+
     .navbar-links li{
         padding: 0.5em 0.05em;
     } 
