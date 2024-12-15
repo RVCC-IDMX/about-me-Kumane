@@ -30,8 +30,7 @@ The main element contains the "meat" of this project--it's where I actually put 
 By using @media screen and setting proportions, I learned how to make websites that are mobile conscious. By designing for mobile sites first and then  using a media query, we can ensure that the websites we create are scalable and look good on any device. I used the Media Query to change my scroll to top button, and added a hamburger navbar to mobile.
 
 ## Color Scheme
-When I first started my About Me, I knew I wanted to use a color scheme involving red, gray, and black but I also knew that I might run into accessibility issues if I chose the wrong shades. Initially, I used the shade #bd1000 for text, but after using the Lighthouse tool in DevTools,  I found the contrast to only be rated 2.25. Thankfully, Lighthouse has an easy one click fix to take your color up to a 4 rating, and I ended with using #e91705 for my red text. The background for the form input boxes also failed to reach an acceptable rating and so I change the color from #494848 to #828282. Below you will find the color swatches that I used in the final iteration of my project. ![swatches](img/swatches.png)
-  
+When I first started my About Me, I knew I wanted to use a color scheme involving red, gray, and black but I also knew that I might run into accessibility issues if I chose the wrong shades. Initially, I used the shade #bd1000 for text, but after using the Lighthouse tool in DevTools,  I found the contrast to only be rated 2.25. Thankfully, Lighthouse has an easy one click fix to take your color up to a 4 rating, and I ended with using #e91705 for my red text. The background for the form input boxes also failed to reach an acceptable rating and so I change the color from #494848 to #828282. Below you will find the color swatches that I used in the final iteration of my project.
 
 ## Citations
 Below are websites I used to write my blog post about CSS Animations. Some animations have been taken directly from these sources and injected into my code. Even if they are modified they are NOT my work.
@@ -42,4 +41,9 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/animation
 
 https://developer.mozilla.org/en-US/play
 
+I used this code as a base for my hamburger menu. I stole the animation and basic functionality, but I successfully customized it while implementing it within the framework of my webpage.
+
+https://codepen.io/aloosle/pen/eaVLZx
+
 ## License
+About Me by Kevin Gonzalez is marked with CC0 1.0 Universal
