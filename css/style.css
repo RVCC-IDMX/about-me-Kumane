@@ -15,7 +15,12 @@
 #selfinfo img{
     width: 300px;
 }
-
+/* Logo */
+.logo img{
+    padding: 1em;
+    max-width:480px;
+    
+}
 
 /* Bio */
 #bio{
