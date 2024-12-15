@@ -1,6 +1,8 @@
 /* Header and Footer rules*/
 #selfinfo{
     margin-top: 120px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 #selfinfo footer{
     margin: 0.5rem;
@@ -14,7 +16,6 @@
     width: 300px;
 }
 
-/* <main> ---> <section> Stylization */
 
 /* Bio */
 #bio{
@@ -72,14 +73,14 @@
     margin: auto;
 }
 #lit div p:first-letter{
-    color: whitesmoke;
+    color: #f5f5f5;
     font-family:"Special Elite";
     float: left;
     font-size: 40pt;
     padding: 0.25em;
     line-height: 0.5px;
     margin-left: 0.5em;
-    border: dashed black 0.1em;
+    border: dashed #000000 0.1em;
     border-top: 1em;
     text-shadow: 15px 10px 10px black;
 }
@@ -94,7 +95,7 @@
 body{
     font-family: "Arial";
     background-color: #242323;
-    color: #8f0e03;
+    color: #ff584a;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
@@ -105,13 +106,13 @@ header{
 h1 {
     font-family: "Special Elite";
     font-size: 55pt;
-    color: #bd1000;
+    color: #e91705;
     text-shadow: -2px -2px 0 #000, 2px -2px #000, -2px 2px #000, 2px 2px #000;
 }
 
 h2, h3, h4, h5, h6{
     font-family: "Special Elite";
-    color: #bd1000;
+    color: #e91705;
     text-shadow: -2px -2px 0 #000, 2px -2px #000, -2px 2px #000, 2px 2px #000;
     text-align: center;
 }
@@ -127,14 +128,14 @@ p{
 
 /* Link Stylization */
 a:link{
-    color: #8f0e03;  
+    color: #e91705;  
     text-decoration: none;
 }
 a:visited{
-    color: #8f0e03;
+    color: #e91705;
 }
 a:hover{
-    color: aliceblue;
+    color: #f0f8ff;
 }
 a:active{
     color: black;
@@ -152,17 +153,18 @@ label{
 }
 
 fieldset{
-    border-color: #8f0e03;
+    border-color: #e91705;
+    font-size: 20px;
     font-family: Pangolin;
     box-shadow: 1px 1px 1px 1px rgba(255,0,0,1)
 }
 fieldset input, textarea, select, button{
-    background-color: #494848;
+    background-color: #828282;
 }
 fieldset ul{
     list-style-type: none;
 }
-    
+/* Submit Button Stylization and Back to Top Button */
 button{
     font-family: "Special Elite";
     font-size: 1.5em;
@@ -171,7 +173,8 @@ button{
     text-shadow: -2px -2px 0 #000, 2px -2px #000, -2px 2px #000, 2px 2px #000;
 
 }
-#button{
+
+#button, #go2top{
     max-width: 500px;
     text-decoration:none;
     text-shadow:0px 3px 3px #000000;
@@ -179,15 +182,20 @@ button{
     background:linear-gradient(to bottom, #494848 5%, #7a0602 100%);
     background-color:#494848;
     border-radius:23px;
-    border:2px solid #333029;
+    border:1px solid #000000;
     display:inline-block;
     cursor:pointer;
     margin-top: 0.5em;
-    color:#8f0e03;
-    transition-duration: 100000ms;
-    
+    color:#e91705;    
 }
-#button:hover {
+
+#go2top{
+    position: fixed;
+    bottom: 0px;
+    right: 16px;
+}
+
+#button:hover,#go2top:hover {
 	background:linear-gradient(to bottom, #7a0602 5%, #494848 100%);
 	background-color:#7a0602;
     
