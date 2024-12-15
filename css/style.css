@@ -96,6 +96,25 @@
     text-shadow: 15px 10px 10px black;
 }
 
+@keyframes slide-in {
+    from {
+      translate: 350vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+  
+#cssAnimation{
+    display: flex;
+    animation-duration: 3s;
+    animation-name: slide-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
 /*Video Section*/
 #video{
     text-align: center;
