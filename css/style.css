@@ -18,7 +18,7 @@
 /* Logo */
 .logo img{
     padding: 1em;
-    max-width:480px;
+    max-width:100px;
     
 }
 
@@ -98,12 +98,12 @@
 
 @keyframes slide-in {
     from {
-      translate: 350vw 0;
-      scale: 200% 1;
+      translate: 0vw 0vw;
+      scale: 100% 1;
     }
   
     to {
-      translate: 0 0;
+      translate: 5vw 0;
       scale: 100% 1;
     }
   }
@@ -249,6 +249,9 @@ button{
         columns:20em;
     }
 
+    
+
+  
   
 }
 /*Laptop Size*/
@@ -269,13 +272,29 @@ button{
     
     figure{
         display: block;
-    }    
+    }
+    
+    
+        
 }    
 
 /* Change Scroll to Top button on mobile */
 
 @media screen and (max-width:60em){
+
+    /* Scroll to top button hidden */
     #go2top{
+        display: none;
+    }
+    /* desktop navbar hidden */
+    #desktopnav{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:60.000000001em){
+    #mobilenav{
         display: none;
     }
 }
