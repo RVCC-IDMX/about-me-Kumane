@@ -61,6 +61,12 @@
     border: #000 solid 2px;
 
 }
+
+#gallery img:hover{
+    box-shadow: 4px 10px 90px 0px rgba(255,0,0,1);
+    transition: 0.5s ease-in-out;
+}
+
 #gallery figure{
     text-align: center;
     font-size: large;
@@ -223,6 +229,8 @@ button{
         max-width:100%;
         columns:20em;
     }
+
+  
 }
 /*Laptop Size*/
 @media screen and (min-width:100em){
@@ -242,5 +250,13 @@ button{
     
     figure{
         display: block;
+    }    
+}    
+
+/* Change Scroll to Top button on mobile */
+
+@media screen and (max-width:60em){
+    #go2top{
+        display: none;
     }
 }
